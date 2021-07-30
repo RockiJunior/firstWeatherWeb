@@ -11,7 +11,7 @@ function App() {
   const [data, setData] = React.useState([]);
 
   function onSearch(ciudad) {
-    if (data.length > 3) {
+    if (data.length > 2) {
       alert("Can't add more cities");
     } else {
       fetchCity(ciudad, setData)
