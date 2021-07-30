@@ -1,0 +1,68 @@
+.card {
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    height: 300px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.bloque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonCard {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    background-color: transparent;
+    border: solid black 1px;
+    border-radius: 9999px;
+}
+
+.buttonCard:hover {
+    transition: 0.8s;
+    color: red;
+}
+
+.titleCard {
+    color: black;
+    font-size: 20px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.minTempCard {
+    font-size: 30px;
+    color: blue;
+    padding: 10px;
+}
+
+.maxTempCard {
+    font-size: 30px;
+    color: red;
+    padding: 10px;
+}
+
+
+/* .DogCard {
+    margin: 5px;
+    width: 280px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(230, 230, 230);
+    border: solid blueviolet;
+    border-radius: 5%;
+    padding-left: 5px;
+    padding-right: 10px;
+    background-image: linear-gradient(105deg, rgba(94, 40, 165, 0.8) 39%, rgba(75, 1, 172, 0.8) 96%);
+} */
+
+
+/* backdrop-filter: blur(15px) */
